@@ -1,0 +1,56 @@
+sudo blkid
+
+
+cat /proc/filesystems
+
+
+These help identify storage devices and filesystem types without intentionally changing them.
+
+Also, fscrypt only encrypts newly designated directories; it does not automatically decrypt or identify an existing Android encrypted userdata partition. 
+GitHub+1
+
+
+7. Let's identify your Tank 300 system
+I want to help you investigate the actual encryption implementation rather than guess.
+1. Which infotainment platform do you have?
+
+Android head unit (unknown chipset)
+
+UIS7862 / UIS8581
+
+TS10 / TS18
+
+Qualcomm Snapdragon
+
+MediaTek (MTK)
+
+Other / Unknown
+
+
+2. What is your main objective?
+
+Identify existing encryption algorithm
+
+Read an existing encrypted EXT4 partition
+
+Understand Android userdata encryption
+
+Access or recover existing files
+
+Install fscrypt on the car system
+
+
+3. What access do you have?
+
+ADB shell access
+
+Root access
+
+Engineering / Factory Mode only
+
+Partition image or firmware file
+
+Linux computer only
+
+Submit
+With this information, I can give you the appropriate commands for examining the Tank 300's EXT4 encryption, including AES, fscrypt, and dm-crypt identification.
